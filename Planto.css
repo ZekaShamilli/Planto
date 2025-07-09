@@ -1,0 +1,368 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1B2316;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+.toppart {
+    margin: 10px auto;
+    background-image: url(bigtreeforbackground.jpg);
+    width: 1940px;
+    height: 2592px;
+    background-position: center;
+}
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+#writing {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#writing p {
+    margin-top: 6px;
+    font-size: 28px;
+    width: 99px;
+    height: 34px;
+    color: white;
+    opacity: 75%;
+}
+
+#writing a {
+    text-decoration: none;
+
+}
+
+#writing img {
+    width: 48px;
+    height: 48px;
+}
+
+.navbar {
+    width: 545px;
+    height: 29px;
+    text-align: center;
+    justify-self: center;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    opacity: 0.8;
+}
+
+.buttonstop {
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+}
+
+.buttonstop img {
+    width: 26px;
+    height: 26px;
+}
+
+.menu-icon {
+    width: 31px;
+    height: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    gap: 5px;
+    align-content: center;
+    margin-top: 6px;
+    opacity: 75%;
+
+}
+
+.menu-icon .line {
+
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.main {
+    max-width: 1800px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breathnatureal {
+    margin-top: 120px;
+}
+
+.breathnatureal #bigpart {
+    font-size: 118px;
+    width: 892px;
+    height: 143px;
+    color: #FFFFFF;
+    opacity: 75%;
+
+}
+
+.breathnatureal #littlepart {
+    width: 893px;
+    height: 56px;
+    font-size: 22px;
+    color: white;
+    opacity: 75%;
+}
+
+.buttonsmiddle {
+    display: flex;
+    margin-top: 20px;
+}
+
+.buttonsmiddle .Explore {
+    background: none;
+    border: none;
+    color: white;
+    opacity: 75%;
+    border: 2px solid white;
+    width: 217px;
+    height: 64px;
+    border-radius: 12px;
+    font-size: 28px;
+}
+
+.Explore:hover {
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.buttonsmiddle .LiveDemo {
+    align-items: center;
+    display: flex;
+    border: none;
+    background: none;
+    width: 196px;
+    height: 64px;
+    margin-left: 35px;
+}
+
+.circle {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsmiddle .LiveDemo p {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    opacity: 75%;
+}
+
+.circle img {
+    width: 25px;
+    height: 25px;
+}
+
+.middlerightpart {
+
+    height: 1028px;
+}
+
+.square1 {
+    background-color: rgba(58, 68, 60, 0.7);
+    margin-top: 130px;
+    width: 512px;
+    height: 644px;
+
+
+
+    border-radius: 77px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.square1 img {
+    height: 20px;
+    width: 20px;
+}
+
+.squarewriting {
+    margin-top: 350px;
+    z-index: 1;
+}
+
+#Trendy {
+    font-size: 23px;
+    color: white;
+    opacity: 75%;
+    margin-left: 60px;
+}
+
+#Calathea {
+
+    font-size: 38px;
+    color: white;
+    opacity: 75%;
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+#Calatheafoto {
+    margin-left: 150px;
+}
+
+.plant1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.middlerightpart .plant1 img {
+    width: 459px;
+    height: 459px;
+    position: absolute;
+    z-index: 1;
+}
+
+.square1 button {
+    background: none;
+    border: none;
+    border: 2px solid white;
+    width: 217px;
+    height: 64px;
+    opacity: 75%;
+    border-radius: 12px;
+    color: white;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.comment1 {
+    background-color: rgba(58, 68, 60, 0.7);
+    margin-top: 280px;
+    width: 409px;
+    height: 237px;
+    border-radius: 77px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comment1 a {
+    text-decoration: none;
+}
+
+.profile1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 207px;
+    height: 64px;
+}
+
+.comment1 .profile1 img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.AlenaPatel {
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.totalstars {
+    display: flex;
+    color: yellow;
+    margin-left: 13px;
+    position: relative;
+
+}
+
+.star {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.star1 {
+    position: absolute;
+    left: 125px;
+    bottom: 0.55px;
+
+}
+
+.commenttext1 p {
+    width: 341px;
+    height: 63px;
+    color: white;
+    opacity: 75%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.OurTrendyPlants {
+    width: 1800px;
+    height: 10000px;
+    margin: 0 auto;
+}
+
+#Introduction {
+    color: white;
+    font-size: 55px;
+}
+
+.introduction {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.vectors {}
+
+#vector2 {
+    position: absolute;
+    width: 68.5px;
+    height: 69px;
+    left: 650px;
+}
+
+#vector1 {
+    right: 650px;
+    position: absolute;
+    width: 68.5px;
+    height: 69px;
+}
