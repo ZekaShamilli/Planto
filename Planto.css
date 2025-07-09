@@ -15,7 +15,7 @@ body {
 .toppart {
     margin: 10px auto;
     background-image: url(bigtreeforbackground.jpg);
-    width: 1940px;
+    width: 100%;
     height: 2592px;
     background-position: center;
 }
