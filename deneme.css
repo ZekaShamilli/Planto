@@ -1,0 +1,1268 @@
+ @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1B2316;
+            overflow-x: hidden;
+        }
+
+        .toppart {
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            background-image: url(photos/bigtreeforbackground.jpg);
+            width: 100vw;
+            min-height: 100vh;
+            background-position: top;
+            background-size: cover;
+            position: relative;
+        }
+
+        .header {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            max-width: 90vw;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #writing {
+            display: flex;
+            align-items: center;
+           
+        }
+
+        #writing p {
+            font-size: clamp(20px, 4vw, 28px);
+            margin-left: 10px;
+            margin-top: 8px;
+            transition: all 0.3s ease;
+        }
+
+        #writing p:hover{
+        opacity: 50%;
+        }
+
+        #writing img {
+            width: clamp(32px, 6vw, 48px);
+            height: clamp(32px, 6vw, 48px);
+            border-radius: 8px;
+        }
+
+        .navbar {
+            width: 346px;
+            text-align: center;
+            justify-self: center;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: clamp(14px, 2vw, 16px);
+        }
+
+        .navbar a:hover {
+            opacity: 0.7;
+        }
+
+        .buttonstop {
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .buttonstop img {
+            width: clamp(20px, 3vw, 26px);
+            height: clamp(20px, 3vw, 26px);
+            border-radius: 4px;
+        }
+
+        .menu-icon {
+            width: 31px;
+            height: 13px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .menu-icon .line {
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+        .main {
+            max-width: 90vw;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 40px;
+            padding: 0 20px;
+        }
+
+        .breathnatureal {
+            margin-top: 60px;
+        }
+
+        .breathnatureal #bigpart {
+            font-size: clamp(32px, 8vw, 118px);
+            color: white;
+            opacity: 0.75;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .breathnatureal #littlepart {
+            font-size: clamp(16px, 2.5vw, 23px);
+            color: white;
+            opacity: 0.75;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .buttonsmiddle {
+            display: flex;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .buttonsmiddle .Explore {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            opacity: 0.75;
+            padding: 15px 30px;
+            border-radius: 12px;
+            font-size: clamp(16px, 2.5vw, 28px);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .buttonsmiddle .Explore:hover {
+            background-color: white;
+            color: #1B2316;
+        }
+
+        .buttonsmiddle .LiveDemo {
+            align-items: center;
+            display: flex;
+            border: none;
+            background: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .circle {
+            display: flex;
+            width: 64px;
+            height: 64px;
+            border: 2px solid #e0e0e0;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .circle:hover{
+            opacity: 0.5;
+            background-color: rgba(58, 68, 60, 0.7);
+            
+        }
+
+        .buttonsmiddle .LiveDemo p {
+            font-size: clamp(14px, 2vw, 20px);
+            color: white;
+            padding-left: 10px;
+            opacity: 0.75;
+        }
+
+        .middlerightpart {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .plant1 {
+            position: relative;
+            z-index: 2;
+        }
+
+        .plant1::after {
+            content: "";
+            width: 459px;
+            height: 459px;
+            background-image: url(photos/plant1.png);
+            background-size: cover;
+            background-position: center;
+            display: block;
+        }
+
+        .square1 {
+            background-color: rgba(58, 68, 60, 0.7);
+            width: 100%;
+            height: 486px;
+            max-width: 411px;
+            padding: 30px;
+            border-radius: 40px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            margin-top: -288px;
+            z-index: 1;
+            position: relative;
+            
+        }
+
+        .squarewriting {
+            margin-top: 254px;
+        }
+
+        #Trendy {
+            font-size: clamp(16px, 2.5vw, 23px);
+            color: white;
+            opacity: 0.75;
+            margin-bottom: 15px;
+        }
+
+        #Calathea {
+            font-size: clamp(20px, 3vw, 38px);
+            color: white;
+            opacity: 0.75;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .square1 button {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            opacity: 0.75;
+            padding: 15px 30px;
+            border-radius: 12px;
+            font-size: clamp(16px, 2.5vw, 28px);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .square1 button:hover {
+            background-color: white;
+            color: #1B2316;
+        }
+
+        .comment1 {
+            background-color: rgba(58, 68, 60, 0.7);
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 40px;
+            width: 440px;
+        }
+
+        .profile1 {
+            align-items: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        #AlenaPatel {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-position: top;
+            object-fit: cover;
+        }
+
+        .AlenaPatel {
+            font-size: clamp(16px, 2.5vw, 22px);
+            margin-bottom: 5px;
+        }
+
+        .totalstars {
+            display: flex;
+            color: #FFD700;
+        }
+
+        .star {
+            margin-right: 5px;
+            font-size: 16px;
+        }
+
+        .commenttext1 p {
+            color: white;
+            opacity: 0.75;
+            line-height: 1.5;
+            font-size: clamp(14px, 2vw, 16px);
+        }
+
+        .OurTrendyPlants {
+            width: 90vw;
+            padding: 60px 20px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .introduction {
+            position: relative;
+            display: inline-block;
+        }
+
+        #Introduction {
+            color: white;
+            font-size: clamp(28px, 6vw, 55px);
+            margin-bottom: 60px;   
+        }
+         .imgright__img{
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .imgleft__img{
+            position: absolute;
+            left: 0;top: 0;
+          }
+
+        #Introduction {
+                font-size: 36px;
+                position: relative;
+        }
+
+
+        .plantcards-section {
+            max-width: 90vw;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .plantcard {
+            background-color: rgba(58, 68, 60, 0.7);
+            border-radius: 40px;
+            padding: 40px;
+            margin-bottom: 40px;
+            display:flex;
+            justify-content: space-around;
+        }
+
+        .plantcard.reverse{
+        flex-direction: row-reverse;
+        }
+
+        .plant-image img{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .plant-content {
+          
+            max-width: 45vw;
+        }
+
+        .plant-content h3 {
+            color: white;
+            font-size: clamp(18px, 2.5vw, 24px);
+            margin-bottom: 10px;
+        }
+
+        .plant-content p {
+            color: white;
+            opacity: 0.75;
+            font-size: clamp(12px, 1.5vw, 14px);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .plant-price {
+            color: white;
+            font-size: clamp(18px, 2.5vw, 28px);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .plantbuttons {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .ExploreButton {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            opacity: 0.75;
+            padding: 12px 25px;
+            border-radius: 12px;
+            font-size: clamp(14px, 2vw, 18px);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .ExploreButton:hover {
+            background-color: white;
+            color: #1B2316;
+        }
+
+        .cartbutton {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid white;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .cartbutton img{
+            width: 34px;
+            height: 34px;
+        }
+        .cartbutton:hover {
+            background-color: white;
+            color: #1B2316;
+        }
+
+
+        .TopSellingSection {
+            max-width: 90vw;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .top-selling-title {
+            text-align: center;
+            color: white;
+            font-size: clamp(28px, 6vw, 55px);
+            margin-bottom: 60px;
+        }
+
+        .TopSellingGrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 36px;
+            max-width: 90vw;
+            margin: 0 auto;
+        }
+
+        .ProductCard {
+            background-color: rgba(58, 68, 60, 0.7);
+            border-radius: 30px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .ProductCard:hover {
+            transform: translateY(-5px);
+        }
+
+        .ProductImage {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+            width: 200px;
+            height: 200px;
+            }
+        }
+
+        .producttitle {
+            color: white;
+            font-size: clamp(18px, 2.5vw, 24px);
+            margin-bottom: 10px;
+        }
+
+        .ProductDescription {
+            color: white;
+            opacity: 0.7;
+            font-size: clamp(12px, 1.5vw, 14px);
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .ProductPrice {
+            color: white;
+            font-size: clamp(16px, 2vw, 20px);
+            font-weight: 700;
+        }
+
+        .ProductButtons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .ProductButtons .cartbutton {
+            width: 40px;
+            height: 40px;
+        }
+        .productyanyana{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .customerreview{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 36px;
+            max-width: 90vw;
+            margin: 0 auto;
+        }
+
+        .review{
+            background-color: rgba(58, 68, 60, 0.7);
+            border-radius: 30px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .review img{
+            width: 88px;
+            height: 88px;
+            border-radius: 77px;
+            object-position: top;
+            object-fit: cover;
+        }
+        
+        .profileinfo{
+            display: flex;
+            align-items: center;
+            
+        }
+        .namee{
+            font-size: clamp(22px, 2.6vw, 24px);
+            margin-bottom: 5px;
+            color: white;
+        }
+        .stars{
+            font-size: 25px;
+            color: yellow;
+        }
+        .profiletext{
+            margin-left: 20px;
+        }
+        .reviewtext{
+            margin-top: 20px;
+            color: white;
+        }
+        .headerofreview{
+            font-weight: 700;
+            text-align: center;
+            color: white;
+            font-size: clamp(28px, 6vw, 55px);
+            margin-bottom: 60px;
+        }
+
+        .ourbesto2{
+            color: white;
+            width: 90vw;
+            margin: 0 auto;
+        }
+        #introduction2{
+            font-size: clamp(28px, 6vw, 55px);
+            font-weight: 700;
+            text-align: center;
+            margin: 200px 0;
+        }
+
+        .largeinfobox{
+            padding: 100px 0;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            border-radius: 92px;
+            border: solid 1px white;
+            background-color: rgba(58, 68, 60, 0.7);
+            margin-bottom: 200px;
+        }
+
+        .largeinfobox h3{
+            font-size: clamp(24px, 2.5vw, 40px);
+            padding-right: 100px;
+            margin-bottom: 50px;
+        }
+
+        .largeinfobox p{
+            padding-right: 100px;
+            margin-top: 70px;
+           
+            font-size: clamp(10px, 2.5vw, 24px);
+        }
+
+        .largeinfobox img{
+            max-width: 470px;
+            max-height: 470px;
+
+        }
+    
+        .ExploreButton2{
+            
+            margin-top: 50px;
+            background: none;
+            border: 2px solid white;
+            color: white;
+            opacity: 0.75;
+            padding: 12px 25px;
+            border-radius: 12px;
+            font-size: clamp(14px, 2vw, 18px);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            max-width: 150px;
+            text-align: center;
+        }
+
+        /* footer{
+            display: flex;
+            max-width: 90vw;
+            margin: 0 auto;;
+            margin-top: 50px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .planto2 {
+            display: flex;
+            align-items: center;
+           
+        }
+
+        .planto2 p {
+            font-size: clamp(20px, 4vw, 28px);
+            margin-left: 10px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .planto2 p:hover{
+        opacity: 50%;
+        }
+
+        .planto2 img {
+            width: clamp(100px, 6vw, 60px);
+            height: clamp(100px, 6vw, 60px);
+            border-radius: 8px;
+        }
+        .con1{
+            width: 30vw;
+        }
+        .con1 p{
+            margin-top: 25px;
+            margin-left: 15px;
+            color: white;
+        }
+        .con1 nav{
+            margin-top: 30px;
+        }
+
+        .con1 nav ul{
+            display: flex;
+            list-style: none;
+            margin-left: 15px;
+        }
+
+        .con1 a{
+            color: white;
+            text-decoration: none;
+            font-size: clamp(10px, 3vw, 18px);
+            margin-right: 40px;
+            font-weight: 700;
+        }
+
+        .con2{
+            color: white;
+            margin-left: 200px;
+            width: 20vw;
+            
+        }
+
+        .con2 ul{
+
+            margin-left: 5px;
+            margin-top: 20px;
+
+        }
+        .con2 a{
+            gap: 10px;
+            color: white;
+            text-decoration: none;  
+        }
+        .con3{
+            color: white;
+            margin-left: 150px;
+            
+        }
+        .enteremail{
+            margin-top: 20px;
+            border-radius: 8px;
+            display: flex;
+            border: solid 2px white;
+        }
+
+
+
+        .enteremail input{
+            border-radius: 10px;
+            border: none;
+            background: none;
+
+        }
+
+        .enteremail button {
+            border-radius: 8px;
+            align-self: self-end;
+            border: none;
+            margin: 2px;
+            padding: 5px;
+        }
+       */
+ footer {
+            background-color: #2d3e2d;
+            color: white;
+            padding: 40px 20px 20px;
+            margin-top: 50px;
+            padding: 70px 0;
+            
+        }
+
+        .footer-container {
+            max-width: 90vw;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+       
+        .con1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .planto2 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .planto2 img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+
+            margin-right: 10px;
+        } 
+
+        .planto2 p {
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            opacity: 0.75;
+            transition: opacity 0.3s ease;
+            text-decoration: none;
+        }
+
+        .planto2 p:hover {
+            opacity: 0.5;
+        }
+
+        .con1 > p {
+            margin-bottom: 30px;
+            line-height: 1.6;
+            opacity: 0.8;
+        }
+
+        .social-nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .social-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-nav a:hover {
+            opacity: 0.7;
+        }
+
+
+        .con2 h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .con2 ul {
+            list-style: none;
+        }
+
+        .con2 li {
+            margin-bottom: 12px;
+        }
+
+        .con2 a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .con2 a:hover {
+            opacity: 1;
+        }
+
+        
+        .con3 h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .enteremail {
+            display: flex;
+            border: 2px solid white;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .enteremail input {
+            flex: 1;
+            padding: 12px 15px;
+            border: none;
+            background: transparent;
+            color: white;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .enteremail input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .enteremail button {
+            padding: 12px 20px;
+            border: none;
+            background-color: white;
+            color: #2d3e2d;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .enteremail button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .copyright {
+            font-size: 14px;
+            opacity: 0.6;
+            margin-top: 20px;
+        }
+
+
+        @media (max-width: 768px) {
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                text-align: center;
+            }
+
+            .planto2 {
+                justify-content: center;
+            }
+
+            .social-nav ul {
+                justify-content: center;
+            }
+
+            .con2, .con3 {
+                text-align: center;
+            }
+
+            .enteremail {
+                max-width: 400px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            footer {
+                padding: 30px 15px 15px;
+            }
+
+            .footer-container {
+                gap: 25px;
+            }
+
+            .planto2 p {
+                font-size: 24px;
+            }
+
+            .planto2 img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .con1 > p {
+                font-size: 14px;
+            }
+
+            .social-nav ul {
+                gap: 20px;
+            }
+
+            .social-nav a {
+                font-size: 16px;
+            }
+
+            .con2 h3, .con3 h3 {
+                font-size: 18px;
+            }
+
+            .enteremail input {
+                padding: 10px 12px;
+                font-size: 14px;
+            }
+
+            .enteremail button {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+
+        /* Very small screens */
+        @media (max-width: 320px) {
+            .enteremail {
+                flex-direction: column;
+            }
+
+            .enteremail button {
+                margin-top: 10px;
+            }
+        }
+
+        /* Plant icon placeholder */
+        .plant-icon {
+            width: 50px;
+            height: 50px;
+
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        @media (max-width: 768px) {
+            /* .footer{
+                align-items: center;
+            } */
+            .ExploreButton2{
+                justify-self: center;
+                margin-bottom: 50px;
+            }
+            .largeinfobox{
+                flex-direction: column;
+
+                margin: 0;
+                padding: 0;
+
+                text-align: center;
+                p{
+                    margin: 20px;
+                    padding: 0;
+                }
+                img{
+                    max-width: 270px;
+                    max-height: 270px;
+                }
+
+                h3{
+                    padding: 0 ;
+                    
+                }
+            }
+            .header {
+                grid-template-columns: auto 1fr auto;
+                gap: 15px;
+                padding: 20px;
+            }
+
+            .navbar {
+                display: none;
+            }
+
+            .main {
+                grid-template-columns: 1fr;
+                gap: 0;
+                padding: 0 20px;
+                max-width: 100%;
+            }
+
+            .breathnatureal {
+                order: 1;
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .breathnatureal #bigpart {
+                font-size: 48px;
+                margin-bottom: 30px;
+            }
+
+            .breathnatureal #littlepart {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            .buttonsmiddle {
+                justify-content: center;
+                margin-bottom: 40px;
+            }
+
+            .buttonsmiddle .Explore {
+                padding: 12px 30px;
+                font-size: 18px;
+            }
+
+            .buttonsmiddle .LiveDemo {
+                gap: 10px;
+            }
+
+            .circle {
+                width: 50px;
+                height: 50px;
+            }
+
+            .buttonsmiddle .LiveDemo p {
+                font-size: 16px;
+            }
+
+            .comment1 {
+                order: 2;
+                margin: 40px auto 0;
+                max-width: 320px;
+                padding: 25px;
+            }
+
+            .middlerightpart {
+                order: 3;
+                margin-top: 40px;
+                align-items: center;
+            }
+
+            .plant1::after {
+                width: 280px;
+                height: 280px;
+            }
+
+            .square1 {
+                max-width: 320px;
+                height: 387px;
+                margin: -184px auto 0;
+                padding: 25px;
+            }
+
+            .squarewriting {
+                margin-top: 175px;
+                margin-left: 10px;
+                text-align: center;
+            }
+
+            #Trendy {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            #Calathea {
+                font-size: 28px;
+                margin-bottom: 25px;
+                justify-content: center;
+            }
+
+            .square1 button {
+                margin-left: 10px;
+                font-size: 18px;
+                padding: 12px 25px;
+                width: 100%;
+            }
+
+            .profile1 {
+                margin-bottom: 15px;
+            }
+
+            .AlenaPatel {
+                font-size: 18px;
+            }
+
+            .commenttext1 p {
+                font-size: 14px;
+            }
+
+            .OurTrendyPlants {
+                padding: 50px 20px;
+            }
+          .imgright__img{
+            position: absolute;
+          }
+
+            #Introduction {
+                font-size: 36px;
+                position: relative;
+            }
+            .plantcards-section{
+                justify-self: center;
+            }
+            .plantcard {
+                margin: 20px 31px;
+                
+                flex-direction: column;
+                align-items: center;
+                justify-self: center;
+                text-align: center;
+                gap:20px;
+                padding: 30px;
+            }
+
+            .plantcard.reverse {
+                flex-direction: column;
+            }
+
+            .plant-image {
+                width: 250px;
+                height: 250px;
+            }
+
+            .TopSellingGrid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .ProductImage {
+                width: 150px;
+                height: 150px;
+            }
+
+            .plantbuttons{
+                justify-content: center;
+            }
+            .plantcard .plant-image{
+                margin-right: 50px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .header {
+                padding: 15px;
+            }
+
+            .main {
+                padding: 0 15px;
+            }
+
+            .breathnatureal #bigpart {
+                font-size: 36px;
+            }
+
+            .breathnatureal #littlepart {
+                font-size: 16px;
+            }
+
+            .buttonsmiddle {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .buttonsmiddle .Explore {
+                width: 100%;
+                max-width: 200px;
+            }
+
+
+
+            .square1 {
+                max-width: 300px;
+                padding: 20px;
+            }
+
+            .squarewriting {
+                margin-top: 100px;
+            }
+
+            #Calathea {
+                font-size: 24px;
+            }
+
+            .comment1 {
+                max-width: 300px;
+                padding: 20px;
+            }
+
+            .OurTrendyPlants {
+                padding: 40px 15px;
+            }
+
+            #Introduction {
+                font-size: 28px;
+            }
+
+            .plantcard {
+                padding: 20px;
+            }
+
+            .plant-image {
+                width: 200px;
+                height: 200px;
+            }
+
+            .plantbuttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .ExploreButton {
+                width: 100%;
+            }
+
+            .plantcard .plant-image{
+                margin-right: 100px;
+            }
+
+            .plantcard{
+                gap:100px;
+            }
+
+        }
