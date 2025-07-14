@@ -15,7 +15,7 @@
         .toppart {
             background-repeat: no-repeat;
             margin: 0 auto;
-            background-image: url(photos/bigtreeforbackground.jpg);
+            background-image: url(images/background.png);
             width: 100vw;
             min-height: 100vh;
             background-position: top;
@@ -204,7 +204,7 @@
             content: "";
             width: 459px;
             height: 459px;
-            background-image: url(photos/plant1.png);
+            background-image: url(images/plant1.png);
             background-size: cover;
             background-position: center;
             display: block;
