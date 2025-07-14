@@ -472,9 +472,7 @@
             transition: transform 0.3s ease;
         }
 
-        .ProductCard:hover {
-            transform: translateY(-5px);
-        }
+
 
         .ProductImage {
             width: 200px;
@@ -986,9 +984,7 @@
             font-size: 24px;
         }
         @media (max-width: 768px) {
-            /* .footer{
-                align-items: center;
-            } */
+
             .ExploreButton2{
                 justify-self: center;
                 margin-bottom: 50px;
